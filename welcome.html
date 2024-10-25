@@ -3,11 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>يا هلا بالشباب</title>
-    <link rel="stylesheet" href="style.css">
+    <title>مرحبا بالشباب</title>
+    <link rel="stylesheet" href="welcome.css"> <!-- رابط لملف CSS جديد -->
 </head>
-<body style="background-image: url('عمكم.jpg');">
+<body>
     <h1>يا هلا بالشباب</h1>
-    <!-- تم حذف زر الرجوع -->
+    <button class="back-button" onclick="goBack()">رجوع</button> <!-- زر الرجوع -->
+
+    <script>
+        function goBack() {
+            window.location.href = 'test.html'; // الانتقال إلى صفحة تسجيل الدخول
+        }
+    </script>
 </body>
 </html>
