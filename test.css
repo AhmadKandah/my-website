@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('الضيعة العنيد.png'); /* استخدام صورة كخلفية كاملة */
+    background-size: cover; /* جعل الصورة تغطي الخلفية بالكامل */
+    background-position: center; /* مركز الصورة */
+    font-family: Arial, sans-serif;
+    color: white; /* لون النص */
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center; /* محاذاة النص في المنتصف */
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5); /* خلفية مظللة لمربعات الإدخال */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.input-field {
+    width: 250px;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.login-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.image-container {
+    position: absolute;
+    top: 10px; /* يحدد المسافة من الأعلى */
+    right: 10px; /* يحدد المسافة من اليمين */
+}
+
+.food-image {
+    width: 100px; /* عرض الصورة */
+    height: 100px; /* ارتفاع الصورة */
+    border-radius: 50%; /* إطار دائري */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* ظل خفيف */
+}

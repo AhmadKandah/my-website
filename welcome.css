@@ -1,0 +1,35 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background-image: url('عمكم.jpg'); /* استخدام صورة كخلفية كاملة */
+    background-size: cover; /* جعل الصورة تغطي الخلفية بالكامل */
+    background-position: center; /* مركز الصورة */
+    display: flex;
+    flex-direction: column; /* تغيير إلى عمودي لتسهيل المحاذاة */
+    align-items: center; /* محاذاة المحتوى في المنتصف */
+    justify-content: center; /* محاذاة المحتوى في المنتصف */
+    font-family: Arial, sans-serif;
+    color: white; /* لون النص */
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center; /* محاذاة النص في المنتصف */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* ظل للنص لتحسين الوضوح */
+}
+
+.back-button {
+    margin-top: 20px; /* مسافة بين العنوان والزر */
+    padding: 10px 20px; /* مساحة داخل الزر */
+    background-color: #007bff; /* لون خلفية الزر */
+    color: white; /* لون النص */
+    border: none; /* بدون حدود */
+    border-radius: 5px; /* زوايا مدورة */
+    cursor: pointer; /* تغيير شكل المؤشر عند المرور فوق الزر */
+    font-size: 1rem; /* حجم الخط */
+    transition: background-color 0.3s; /* تأثير الانتقال */
+}
+
+.back-button:hover {
+    background-color: #0056b3; /* لون عند المرور فوق الزر */
+}

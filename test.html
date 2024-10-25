@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تسجيل الدخول</title>
+    <link rel="stylesheet" href="test.css">
+    <script>
+        function validateLogin() {
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            // التحقق من اسم المستخدم وكلمة السر
+            if (username === '111' && password === '111') {
+                window.location.href = 'welcome.html'; // الانتقال إلى الصفحة الجديدة
+            } else {
+                alert('اسم المستخدم أو كلمة السر غير صحيحة.'); // رسالة خطأ
+            }
+        }
+    </script>
+</head>
+<body>
+    <!-- عبارة الترحيب -->
+    <h1>أهلاً وسهلاً بكم</h1>
+
+    <!-- مربع تسجيل الدخول -->
+    <div class="login-container">
+        <input type="text" id="username" placeholder="اسم المستخدم" class="input-field">
+        <input type="password" id="password" placeholder="كلمة السر" class="input-field">
+        <button class="login-button" onclick="validateLogin()">تسجيل الدخول</button> <!-- زر تسجيل الدخول -->
+    </div>
+
+    <!-- إضافة صورة "أكل.JPG" في الزاوية -->
+    <div class="image-container">
+        <img src="أكل.JPG" alt="صورة أكل" class="food-image">
+    </div>
+</body>
+</html>
